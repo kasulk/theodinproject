@@ -14,3 +14,6 @@ function Book(title, author, numPages, isRead) {
 const theHobbit = new Book("The Hobbit", "J.R.R. Tokien", 295, false);
 
 console.log(theHobbit.info());
+
+console.log(Object.getPrototypeOf(theHobbit));
+console.log(Book.prototype);
